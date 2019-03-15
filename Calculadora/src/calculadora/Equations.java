@@ -31,4 +31,10 @@ public class Equations {
     public void division(double operator){
         this.number=this.number/operator;
     }
+    public void potentiation(double operator){
+        this.number=Math.pow(this.number, operator);
+    }
+    public void squareroot(double operator){
+        this.number=Math.sqrt(this.number);
+    }
 }
